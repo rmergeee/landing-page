@@ -16,3 +16,73 @@ ul, ol {
   list-style: none; /* Видаляє маркери списків */
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.block-header-margin {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-list {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.first-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-conteiner, .img-conteiner {
+  max-width: 500px;
+  padding: 16px 0px;
+}
+
+.img-conteiner {
+  background-color: gray;
+}
+
+.left-conteiner h2 {
+  font-weight: 900;
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.left-conteiner p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.sign-up-button {
+  border: #3882f6;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+}

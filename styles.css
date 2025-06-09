@@ -55,15 +55,25 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 96px 0px;
 }
 
-.left-conteiner, .img-conteiner {
-  max-width: 500px;
+.left-conteiner {
+  width: 500px;
   padding: 16px 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-conteiner {
   background-color: gray;
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  flex-grow: 0;
 }
 
 .left-conteiner h2 {
@@ -85,4 +95,6 @@ body {
   border-radius: 8px;
   color: #e5e7eb;
   background-color: #3882f6;
+  align-self: flex-start;
+  margin-top: 16px;
 }
